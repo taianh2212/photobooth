@@ -332,7 +332,7 @@ export function PhotoboothApp() {
             onComplete={handlePhotosComplete}
             onBack={() => setStep("select-frame")}
             maxPhotos={6}
-            intervalSeconds={10}
+            intervalSeconds={6}
           />
         )}
 

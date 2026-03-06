@@ -16,7 +16,7 @@ export function CameraCapture({
   onComplete,
   onBack,
   maxPhotos = 8,
-  intervalSeconds = 10,
+  intervalSeconds = 6,
 }: CameraCaptureProps) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
