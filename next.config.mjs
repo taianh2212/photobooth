@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // You can optionally uncomment the lines below if your app is hosted under a subdirectory like: https://taianh2212.github.io/photobook2/
-  basePath: '/photobook2',
-  assetPrefix: '/photobook2/',
+  // Hosted at: https://taianh2212.github.io/photobooth/
+  basePath: '/photobooth',
+  assetPrefix: '/photobooth/',
   typescript: {
     ignoreBuildErrors: true,
   },
